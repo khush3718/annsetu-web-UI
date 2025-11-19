@@ -60,7 +60,7 @@ export function AnndootCampaign() {
         <div
           className="rounded-2xl p-8 md:p-12 mb-16 relative overflow-hidden"
           style={{
-            backgroundImage: "url(/anndoot-bg-pattern.jpg)",
+            backgroundImage: "url(/anndoot-bg.png)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundBlendMode: "overlay",
@@ -72,13 +72,13 @@ export function AnndootCampaign() {
           </div>
 
           <div className="relative z-10">
-            <div className="inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-4 text-primary-foreground text-sm font-semibold animate-in">
+            <div className="inline-block bg-white/40 backdrop-blur-sm px-4 py-2 rounded-full mb-4 text-zinc-850 text-sm font-semibold animate-in">
               ⭐ Become a Local Community Agent
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-4 text-balance">
+            <h2 className="text-4xl md:text-5xl font-bold text-zinc-850 mb-4 text-balance">
               Join the Anndoot Family
             </h2>
-            <p className="text-xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto text-balance">
+            <p className="text-xl text-zinc-850/90 mb-8 max-w-3xl text-balance">
               Be the trusted connection between your locality and premium Indian snacks. Build your community, earn
               rewards, and become a brand ambassador in your neighborhood.
             </p>
@@ -86,7 +86,7 @@ export function AnndootCampaign() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={() => setActiveTab("members")}
-                className="px-6 py-3 bg-white/20 hover:bg-white/30 text-primary-foreground rounded-lg font-semibold transition-all transform hover:scale-105 backdrop-blur-sm"
+                className="px-6 py-3 bg-white/50 hover:bg-white/30 text-zinc-850 rounded-lg font-semibold transition-all transform hover:scale-105 backdrop-blur-sm"
               >
                 Learn More
               </button>
