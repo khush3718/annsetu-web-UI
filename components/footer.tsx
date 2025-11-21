@@ -33,7 +33,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a href="https://wa.me/918511408789?text=Hello%20I%20want%20to%20know%20more"   target="_blank"
+  rel="noopener noreferrer" className="hover:text-primary transition-colors">
                   Contact
                 </a>
               </li>
