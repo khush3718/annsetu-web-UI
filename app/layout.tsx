@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'AnnSetu by eDravya - Authentic Indian Snacks Delivered',
+  description: 'Bringing authentic Indian snacks to your table with love and tradition. Explore our range of delicious, handcrafted snacks made from pure ingredients.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/annsetu-icon.svg',
         type: 'image/svg+xml',
       },
     ],
