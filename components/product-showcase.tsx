@@ -15,52 +15,60 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    name: "Masala Papad",
+    name: "Farsi Puri",
     category: "Crispy Snacks",
-    image: "/masala-papad-crispy-indian-snack.jpg",
-    description: "Thin, crispy wafers with aromatic spices",
+    image: "/farsi-puri.jpg",
+    description: " Crisp, flaky Gujarati puris made with flour and spices, perfect as a tea-time treat.",
     liked: false,
   },
   {
     id: 2,
-    name: "Chikhalwali Mix",
-    category: "Mixed Snacks",
-    image: "/chikhalwali-mix-indian-snack-blend.jpg",
-    description: "Traditional blend of roasted nuts and spices",
+    name: "Methi Masala Puri",
+    category: "Crispy Snacks",
+    image: "/methi-masala-puri.jpg",
+    description: "Deep-fried puris flavored with fresh fenugreek and aromatic masalas for a savory crunch.",
     liked: false,
   },
   {
     id: 3,
-    name: "Bhujia",
-    category: "Savory Snacks",
-    image: "/bhujia-savory-indian-snack.jpg",
-    description: "Golden, crunchy chickpea noodles",
+    name: "Gadya Sakkarpara",
+    category: "Sweet Snacks",
+    image: "/Gadya-sakkarpara.jpg",
+    description: "Diamond-cut, deep-fried dough bites coated in a sweet sugar syrup for a classic festive nibble.",
     liked: false,
   },
   {
     id: 4,
-    name: "Mathri",
-    category: "Baked Snacks",
-    image: "/mathri-traditional-indian-baked-snack.jpg",
-    description: "Buttery, flaky diamond-shaped crackers",
+    name: "Sanchar Sev",
+    category: "Crispy Snacks",
+    image: "/Sanchar-Sev.jpg",
+    description: "Moderately thin, crunchy sev seasoned with mild spices",
     liked: false,
   },
   {
     id: 5,
-    name: "Sev",
-    category: "Extruded Snacks",
-    image: "/sev-spicy-indian-snack-noodles.jpg",
-    description: "Thin spiced noodles, perfectly seasoned",
+    name: "Tikhi Jadi Sev",
+    category: "Crispy Snacks",
+    image: "/tikhi-jadi-sev.jpg",
+    description: "Thick, spicy sev with bold chili flavor and a hearty, satisfying crunch.",
     liked: false,
   },
   {
     id: 6,
-    name: "Aloo Bhujia",
-    category: "Root Vegetable",
-    image: "/aloo-bhujia-potato-snack.jpg",
-    description: "Crispy potato and chickpea snack",
+    name: "Nylon Dry-Fruit Poha Chivda",
+    category: "Crispy cereal-based Snacks",
+    image: "/nylon-dryfruit-chivda.jpg",
+    description: "Extra thin poha (flattened rice) mix with dry fruits and a delicate spice blend.",
     liked: false,
   },
+  // {
+  //   id: 7,
+  //   name: "Makai Poha Chivda",
+  //   category: "Crispy cereal-based Snacks",
+  //   image: "/makai-poha-chivda.jpg",
+  //   description: "Light corn flakes mixture tossed with nuts, spices, and a hint of sweetness.",
+  //   liked: false,
+  // },
 ]
 
 export function ProductShowcase() {
@@ -116,9 +124,9 @@ export function ProductShowcase() {
                 </span>
                 <h3 className="text-xl font-bold text-foreground mb-2">{product.name}</h3>
                 <p className="text-foreground/60 text-sm mb-4">{product.description}</p>
-                <button className="w-full bg-primary text-primary-foreground py-2 rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                {/* <button className="w-full bg-primary text-primary-foreground py-2 rounded-lg font-semibold hover:opacity-90 transition-opacity">
                   Add to Cart
-                </button>
+                </button> */}
               </div>
             </div>
           ))}

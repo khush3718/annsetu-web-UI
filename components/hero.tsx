@@ -7,13 +7,14 @@ export function Hero() {
     <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: "url('/anndoot-bg.png')",
+        backgroundImage: "url('/background.png')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
       {/* Gradient overlay for readability */}
-      <div className="absolute inset-0 bg-gradient-to-br from-background/90 via-secondary/40 to-background/90" />
+      <div className="absolute inset-0 bg-gradient-to-br from-background/10 via-secondary/70 to-background/10" />
+      {/* <div className="absolute inset-0 bg-black/10" /> */}
 
       {/* Decorative background elements */}
       <div className="absolute inset-0 opacity-10">
@@ -22,12 +23,12 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
-        <div className="mb-6 inline-block bg-primary/60 text-foreground px-4 py-2 rounded-full text-sm font-medium border border-foreground/60 shadow-lg shadow-secondary/60">
+        {/* <div className="mb-6 inline-block bg-primary/60 text-foreground px-4 py-2 rounded-full text-sm font-medium border border-foreground/60 shadow-sm shadow-secondary/20">
           ✨ Authentic Indian Snacks Delivered
-        </div>
+        </div> */}
 
         <h1 className="text-5xl md:text-7xl font-bold text-balance mb-6 text-foreground drop-shadow">
-          Taste the <span className="text-primary">Flavors</span> of India
+          Taste the <span className="text-red-600 drop-shadow">Flavors</span> of India
         </h1>
 
         <p className="text-xl text-foreground/80 mb-8 text-balance max-w-2xl mx-auto">

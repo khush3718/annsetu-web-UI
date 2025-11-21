@@ -31,9 +31,18 @@ export function Header() {
           <a href="#about" className="text-foreground hover:text-primary transition-colors">
             About
           </a>
-          <button className="bg-primary text-primary-foreground px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity">
+          {/* <button className="bg-primary text-primary-foreground px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity">
             Contact
-          </button>
+          </button> */}
+          <a
+  href="https://wa.me/918511408789?text=Hello%20I%20want%20to%20know%20more"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-primary text-primary-foreground px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity"
+>
+  Contact
+</a>
+
         </nav>
 
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
@@ -52,9 +61,17 @@ export function Header() {
               <a href="#about" className="text-foreground hover:text-primary">
                 About
               </a>
-              <button className="bg-primary text-primary-foreground px-6 py-2 rounded-lg font-medium w-full">
+              {/* <button className="bg-primary text-primary-foreground px-6 py-2 rounded-lg font-medium w-full">
                 Contact
-              </button>
+              </button> */}
+                        <a
+  href="https://wa.me/918511408789?text=Hello%20I%20want%20to%20know%20more"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-primary text-primary-foreground px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity"
+>
+  Contact
+</a>
             </nav>
           </div>
         )}

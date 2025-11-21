@@ -19,11 +19,11 @@ export function Features() {
       title: "Pure Ingredients",
       description: "No artificial additives or preservatives",
     },
-    {
-      icon: Award,
-      title: "Award Winning",
-      description: "Recognized for excellence in taste and quality",
-    },
+    // {
+    //   icon: Award,
+    //   title: "Award Winning",
+    //   description: "Recognized for excellence in taste and quality",
+    // },
   ]
 
   return (
@@ -31,7 +31,7 @@ export function Features() {
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-foreground text-center mb-16">Why Choose AnnSetu?</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => {
             const Icon = feature.icon
             return (

@@ -48,9 +48,9 @@ export function AnndootCampaign() {
   ]
 
   const agentShowcase = [
-    { name: "Priya Sharma", location: "Bangalore - Indiranagar", members: "250+", title: "Top Agent" },
-    { name: "Rajesh Patel", location: "Mumbai - Bandra", members: "180+", title: "Rising Star" },
-    { name: "Anjali Verma", location: "Delhi - South Delhi", members: "320+", title: "Top Agent" },
+    { name: "Khush Shah", location: "Ahmedabad - Maninagar", members: "25", title: "Top Agent" },
+    { name: "Parv Shah", location: "Vadodara - Pratapgunj", members: "18", title: "Rising Star" },
+    { name: "Hetal Shah", location: "Ahmedabad - Prahladnagar", members: "32", title: "Top Agent" },
   ]
 
   return (
@@ -100,7 +100,7 @@ export function AnndootCampaign() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
+        {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
           {stats.map((stat, index) => {
             const Icon = stat.icon
             return (
@@ -114,7 +114,7 @@ export function AnndootCampaign() {
               </div>
             )
           })}
-        </div>
+        </div> */}
 
         <div className="mb-16">
           <div className="flex gap-2 justify-center mb-8 flex-wrap">
@@ -201,9 +201,9 @@ export function AnndootCampaign() {
                     <div className="text-2xl font-bold text-primary">{agent.members}</div>
                     <div className="text-xs text-foreground/60">Community Members</div>
                   </div>
-                  <button className="w-full bg-primary text-primary-foreground py-2 rounded-lg font-semibold hover:opacity-90 transition-all text-sm">
+                  {/* <button className="w-full bg-primary text-primary-foreground py-2 rounded-lg font-semibold hover:opacity-90 transition-all text-sm">
                     View Profile
-                  </button>
+                  </button> */}
                 </div>
               ))}
             </div>
