@@ -94,7 +94,7 @@ export function ProductShowcase() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {products.map((product) => (
             <div
               key={product.id}
@@ -112,9 +112,8 @@ export function ProductShowcase() {
                   className="absolute top-4 right-4 bg-white/90 p-2 rounded-full hover:bg-white transition-all z-10"
                 >
                   <Heart
-                    className={`w-5 h-5 transition-colors ${
-                      likedProducts.has(product.id) ? "fill-primary text-primary" : "text-foreground"
-                    }`}
+                    className={`w-5 h-5 transition-colors ${likedProducts.has(product.id) ? "fill-primary text-primary" : "text-foreground"
+                      }`}
                   />
                 </button>
               </div>
@@ -130,6 +129,15 @@ export function ProductShowcase() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="flex justify-center">
+          <a
+            href="/products"
+            className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-8 py-3 rounded-xl font-bold hover:scale-105 transition-all shadow-lg"
+          >
+            See More Products
+          </a>
         </div>
       </div>
     </section>

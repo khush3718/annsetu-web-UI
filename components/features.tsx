@@ -1,35 +1,28 @@
-"use client"
-
-import { Truck, Shield, Leaf, Award } from "lucide-react"
+import { Heart, Home, Leaf } from "lucide-react"
 
 export function Features() {
   const features = [
     {
-      icon: Truck,
-      title: "Fast Delivery",
-      description: "Get your snacks delivered within 24-48 hours",
+      icon: Heart,
+      title: "Handmade with Love",
+      description: "Crafted by skilled artisans using traditional techniques for that perfect crunch.",
     },
     {
-      icon: Shield,
-      title: "Quality Guaranteed",
-      description: "100% authentic and freshly prepared snacks",
+      icon: Home,
+      title: "Taste of Home",
+      description: "Authentic family recipes that bring back nostalgic, home-cooked flavors.",
     },
     {
       icon: Leaf,
-      title: "Pure Ingredients",
-      description: "No artificial additives or preservatives",
+      title: "Pure & Natural",
+      description: "No artificial preservatives or colors—just pure ingredients as nature intended.",
     },
-    // {
-    //   icon: Award,
-    //   title: "Award Winning",
-    //   description: "Recognized for excellence in taste and quality",
-    // },
   ]
 
   return (
     <section id="about" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-foreground text-center mb-16">Why Choose AnnSetu?</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-foreground text-center mb-16">The Yash Namkeen Experience</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => {

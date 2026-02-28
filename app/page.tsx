@@ -11,7 +11,6 @@ export default function Home() {
       <Header />
       <Hero />
       <ProductShowcase />
-      <AnndootCampaign />
       <Features />
       <Footer />
     </main>
