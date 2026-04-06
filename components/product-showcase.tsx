@@ -15,60 +15,108 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    name: "Farsi Puri",
+    name: "Jira Khakhra",
     category: "Crispy Snacks",
-    image: "/farsi-puri.jpg",
-    description: " Crisp, flaky Gujarati puris made with flour and spices, perfect as a tea-time treat.",
+    image: "/yash namkeen/Yash Jira K.png",
+    description: "Classic roasted crispy snack with the earthy flavor of cumin seeds.",
     liked: false,
   },
   {
     id: 2,
-    name: "Methi Masala Puri",
+    name: "Masala Khakhra",
     category: "Crispy Snacks",
-    image: "/methi-masala-puri.jpg",
-    description: "Deep-fried puris flavored with fresh fenugreek and aromatic masalas for a savory crunch.",
+    image: "/yash namkeen/Yash Masala.png",
+    description: "Spiced handmade roasted wheat crisps with traditional Indian spices.",
     liked: false,
   },
   {
     id: 3,
-    name: "Gadya Sakkarpara",
-    category: "Sweet Snacks",
-    image: "/Gadya-sakkarpara.jpg",
-    description: "Diamond-cut, deep-fried dough bites coated in a sweet sugar syrup for a classic festive nibble.",
+    name: "Lasan Sev",
+    category: "Crispy Snacks",
+    image: "/yash namkeen/yash lasan s.png",
+    description: "Garlicky, spicy, and crunchy chickpea flour noodles.",
     liked: false,
   },
   {
     id: 4,
-    name: "Sanchar Sev",
+    name: "Ratlami Sev",
     category: "Crispy Snacks",
-    image: "/Sanchar-Sev.jpg",
-    description: "Moderately thin, crunchy sev seasoned with mild spices",
+    image: "/yash namkeen/yash ratlami.png",
+    description: "Moderately thin, crunchy sev seasoned with mild signature spices.",
     liked: false,
   },
   {
     id: 5,
-    name: "Tikhi Jadi Sev",
+    name: "Papad Chavanu",
     category: "Crispy Snacks",
-    image: "/tikhi-jadi-sev.jpg",
-    description: "Thick, spicy sev with bold chili flavor and a hearty, satisfying crunch.",
+    image: "/yash namkeen/yash papad c.png",
+    description: "A delightful mix of crushed papad, sev, and savory spices.",
     liked: false,
   },
   {
     id: 6,
-    name: "Nylon Dry-Fruit Poha Chivda",
-    category: "Crispy cereal-based Snacks",
-    image: "/nylon-dryfruit-chivda.jpg",
-    description: "Extra thin poha (flattened rice) mix with dry fruits and a delicate spice blend.",
+    name: "Methi Khakhra",
+    category: "Crispy Snacks",
+    image: "/yash namkeen/Yash Methi.png",
+    description: "Roasted crispy snack infused with the distinct flavor of fenugreek leaves.",
     liked: false,
   },
-  // {
-  //   id: 7,
-  //   name: "Makai Poha Chivda",
-  //   category: "Crispy cereal-based Snacks",
-  //   image: "/makai-poha-chivda.jpg",
-  //   description: "Light corn flakes mixture tossed with nuts, spices, and a hint of sweetness.",
-  //   liked: false,
-  // },
+  {
+    id: 7,
+    name: "Nadiadi Chavanu",
+    category: "Crispy Snacks",
+    image: "/yash namkeen/Yash Nadiadi c.png",
+    description: "Authentic sweet and spicy trail mix from Nadiad, Gujarat.",
+    liked: false,
+  },
+  {
+    id: 8,
+    name: "Peri Peri Khakhra",
+    category: "Crispy Snacks",
+    image: "/yash namkeen/Yash Peri Peri.png",
+    description: "Spicy and tangy Peri Peri flavored crispy Indian snack.",
+    liked: false,
+  },
+  {
+    id: 9,
+    name: "Pizza Khakhra",
+    category: "Crispy Snacks",
+    image: "/yash namkeen/Yash Pizza.png",
+    description: "Crispy snack bursting with the flavors of Italian pizza spices.",
+    liked: false,
+  },
+  {
+    id: 10,
+    name: "Ragi Khakhra",
+    category: "Crispy Snacks",
+    image: "/yash namkeen/Yash Ragi.png",
+    description: "Healthy and nutritious khakhra made with ragi (finger millet) flour.",
+    liked: false,
+  },
+  {
+    id: 11,
+    name: "Spicy Chavanu",
+    category: "Crispy Snacks",
+    image: "/yash namkeen/Yash spicy c.png",
+    description: "A spicy, crunchy, and savory mix of sev, boondi, and spices.",
+    liked: false,
+  },
+  {
+    id: 12,
+    name: "Loung Sev",
+    category: "Crispy Snacks",
+    image: "/yash namkeen/yash loung sev.png",
+    description: "Thick sev flavored with an aromatic punch of cloves (loung) and spices.",
+    liked: false,
+  },
+  {
+    id: 13,
+    name: "Palak Khakhra",
+    category: "Crispy Snacks",
+    image: "/yash namkeen/yash palak.png",
+    description: "Wholesome and green khakhra infused with the natural goodness of spinach.",
+    liked: false,
+  },
 ]
 
 export function ProductShowcase() {
@@ -98,18 +146,18 @@ export function ProductShowcase() {
           {products.map((product) => (
             <div
               key={product.id}
-              className="group bg-card rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+              className="group bg-white dark:bg-card rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-border/50"
             >
-              <div className="relative overflow-hidden bg-secondary/30 h-64">
+              <div className="relative overflow-hidden bg-white dark:bg-card h-64 p-6 flex justify-center items-center">
                 <img
                   src={product.image || "/placeholder.svg"}
                   alt={product.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <button
                   onClick={() => toggleLike(product.id)}
-                  className="absolute top-4 right-4 bg-white/90 p-2 rounded-full hover:bg-white transition-all z-10"
+                  className="absolute top-4 right-4 bg-white/90 p-2 rounded-full hover:bg-white transition-all z-10 shadow-sm"
                 >
                   <Heart
                     className={`w-5 h-5 transition-colors ${likedProducts.has(product.id) ? "fill-primary text-primary" : "text-foreground"
