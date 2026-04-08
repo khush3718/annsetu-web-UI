@@ -13,12 +13,12 @@ export function Header() {
         <div className="flex items-center gap-3">
           <Image
             src="/yash-logo.png"
-            alt="Yash Namkeen Logo"
+            alt="E dravya mart Logo"
             width={100}
             height={100}
             className="object-contain"
           />
-          <h1 className="text-2xl font-bold text-foreground">Yash Namkeen</h1>
+          <h1 className="text-2xl font-bold text-foreground">E dravya mart</h1>
         </div>
 
         <nav className="hidden md:flex items-center gap-8">

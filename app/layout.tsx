@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Yash Namkeen - Authentic Indian Snacks Delivered',
-  description: 'Bringing authentic Indian snacks to your table with love and tradition. Explore our range of delicious, handcrafted snacks made from pure ingredients by Yash Namkeen.',
+  title: 'E dravya mart - Authentic Indian Snacks Delivered',
+  description: 'Bringing authentic Indian snacks to your table with love and tradition. Explore our range of delicious, handcrafted snacks made from pure ingredients by E dravya mart.',
   generator: 'v0.app',
 }
 

@@ -8,7 +8,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Yash Namkeen</h3>
+            <h3 className="text-2xl font-bold mb-4">E dravya mart</h3>
             <p className="text-background/80 text-sm">
               Bringing authentic Indian snacks to your table with love and tradition. Since years of excellence.
             </p>
@@ -86,7 +86,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-background/70">
-          <p>&copy; 2025 Yash Namkeen. All rights reserved.</p>
+          <p>&copy; 2026 E dravya mart. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-primary transition-colors">
               Privacy Policy

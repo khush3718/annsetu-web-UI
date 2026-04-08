@@ -22,7 +22,7 @@ export function Features() {
   return (
     <section id="about" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-foreground text-center mb-16">The Yash Namkeen Experience</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-foreground text-center mb-16">The E dravya mart Experience</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => {

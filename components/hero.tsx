@@ -20,7 +20,7 @@ export function Hero() {
           </h1>
 
           <p className="text-xl text-background/80 mb-8 text-balance max-w-xl">
-            Experience the rich heritage of Indian snacks with Yash Namkeen. Handcrafted with love, traditional recipes, and the finest ingredients.
+            Experience the rich heritage of Indian snacks with E dravya mart. Handcrafted with love, traditional recipes, and the finest ingredients.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -39,7 +39,7 @@ export function Hero() {
             <div className="absolute inset-0 bg-primary/10 rounded-full animate-pulse"></div>
             <img
               src="/yash-namkeen.png"
-              alt="Yash Namkeen Mascot"
+              alt="E dravya mart Mascot"
               className="relative z-10 w-full h-full object-contain drop-shadow-2xl"
             />
           </div>
